@@ -24,7 +24,7 @@ model =
                    hidden = c(100,100), # two layers of 100 nodes
                    momentum_stable = 0.99,
                    nesterov_accelerated_gradient = T, # use it for speed
-                   epochs = 20) # no. of epochs
+                   epochs = 50) # no. of epochs
 
 ## print confusion matrix
 h2o.confusionMatrix(model)
